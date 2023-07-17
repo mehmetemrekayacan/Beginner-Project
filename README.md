@@ -1,2 +1,2 @@
 # Intermediate Project
-# Here are the small and Intermediate Project that I have done.
+# Here are the small and Beginner Project that I have done.
