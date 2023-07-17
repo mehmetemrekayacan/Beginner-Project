@@ -1,5 +1,5 @@
 
-first_number=int(input("What is the first number?: "))
+first_number=float(input("What is the first number?: "))
 
 def addition(x,y):
     return x+y
@@ -15,7 +15,7 @@ cal=True
 while cal:
     print("+\n-\n*\n/")
     operator=input("Pick a operation: ")
-    next_number=int(input("What is the next number?: "))
+    next_number=float(input("What is the next number?: "))
     if operator=="+":
         result = addition(first_number,next_number)
     elif operator=="-":
