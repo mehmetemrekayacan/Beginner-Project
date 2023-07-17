@@ -42,8 +42,6 @@ while auction:
             if yes_no=="no":
                 auction=False
 
-print(bidders)
-
 high_bid=0
 for bidder in bidders:
     if bidder["bid"]>high_bid:
