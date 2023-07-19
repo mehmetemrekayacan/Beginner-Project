@@ -33,6 +33,7 @@ def game():
         turn=number(num,guess,turn)
         if turn==0:
             print("You lost! Your guess is over.")
+            print(f"The value selected by AI: {num}")
             game=False
 
 game()
